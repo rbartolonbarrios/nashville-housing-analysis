@@ -13,3 +13,4 @@ The SQL Server project includes the following features:
 - Queries that standardize date formats, separate text using substrings and parsename function, and remove duplicates using CTEs.
 - Use of case statements to replace values and make them more clear.
 - Creation of a clean and usable dataset that can be used for further analysis and modeling.
+- A visualization of the data using Power BI can be found by opening the **NashvilleHousingDashboard** file.
