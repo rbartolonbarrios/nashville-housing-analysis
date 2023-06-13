@@ -157,7 +157,21 @@ FROM RowNumCTE
 WHERE row_num > 1
 --ORDER BY PropertyAddress
 
+-- Standardize housing type in LandUse column
+ALTER TABLE NashvilleHousing
+ADD LandUseConverted VARCHAR(50)
 
+UPDATE NashvilleHousing
+SET LandUseConverted = 
+	CASE
+		WHEN LandUse LIKE '%CONDO%' THEN 'CONDO'
+		WHEN LandUse LIKE '%SINGLE%' THEN 'SINGLE-FAMILY'
+		WHEN LandUse LIKE '%QUADPLEX%' THEN 'QUADPLEX'
+		WHEN LandUse LIKE '%TRIPLEX%' THEN 'TRIPLEX'
+		WHEN LandUse LIKE '%MOBILE HOME%' THEN 'MOBILE HOME'
+		WHEN LandUse LIKE '%DUPLEX%' THEN 'DUPLEX'
+		ELSE 'OTHER'
+	END
 
 --Deleting Unused Columns
 
