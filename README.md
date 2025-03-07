@@ -14,5 +14,5 @@ The SQL Server project includes the following features:
 - Use of case statements to replace values and make them more clear.
 - Creation of a clean and usable dataset that can be used for further analysis and modeling.
 
-## Getting Started
+## Visualization
 To view the Power BI dashboard, you can check out the visualization as a [PDF file](https://github.com/rbartolonbarrios/nashville-housing-analysis/blob/main/NashvilleHousingDashboard.pdf) or download the Power BI file from this repository.
