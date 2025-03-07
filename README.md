@@ -1,4 +1,5 @@
 # Nashville Housing Analysis using SQL Server
+![](NashvilleHousingDashboard.png)
 
 This project uses SQL Server to clean housing data from Nashville, Tennessee. The project includes various queries that standardize date formats, make data more usable by separating text using substrings and parsename function, and remove duplicates using CTEs. Additionally, the project uses case statements to replace values to make them more clear.
 
