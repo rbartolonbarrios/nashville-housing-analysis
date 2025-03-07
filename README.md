@@ -13,4 +13,6 @@ The SQL Server project includes the following features:
 - Queries that standardize date formats, separate text using substrings and parsename function, and remove duplicates using CTEs.
 - Use of case statements to replace values and make them more clear.
 - Creation of a clean and usable dataset that can be used for further analysis and modeling.
-- A **visualization** of the data using Power BI can be found by opening the **NashvilleHousingDashboard** file or as a [PDF file](https://github.com/rbartolonbarrios/nashville-housing-analysis/blob/main/NashvilleHousingDashboard.pdf) here.
+
+## Getting Started
+To view the Power BI dashboard, you can check out the visualization as a [PDF file](https://github.com/rbartolonbarrios/nashville-housing-analysis/blob/main/NashvilleHousingDashboard.pdf) or download the Power BI file from this repository.
