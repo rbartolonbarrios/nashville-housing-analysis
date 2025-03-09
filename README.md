@@ -16,4 +16,4 @@ The SQL Server project includes the following features:
 - Creation of a clean and usable dataset that can be used for further analysis and modeling.
 
 ## Visualization
-To view the Power BI dashboard, you can check out the visualization as a [PDF file](https://github.com/rbartolonbarrios/nashville-housing-analysis/blob/main/NashvilleHousingDashboard.pdf) or download the Power BI file from this repository.
+To view the Power BI dashboard, you can check out the visualization by downloading the Power BI file from this repository.
