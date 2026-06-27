@@ -5,6 +5,10 @@ This project demonstrates an end-to-end data analytics workflow using SQL Server
 
 The project focuses on practical data preparation techniques that improve data quality and usability for downstream analysis and visualization.
 
+## Technologies
+- SQL Server
+- Power BI
+
 ## Data Source
 
 The project uses a publicly available Nashville housing dataset obtained from Kaggle. The dataset contains property transaction records including sale price, location, property type, bedrooms, bathrooms, square footage, and sale dates. For more information about the original dataset, please refer to the Kaggle page where the dataset was obtained [Nashville Housing Data](https://www.kaggle.com/datasets/yohan313/nashville-housing-data)
@@ -13,12 +17,11 @@ The project uses a publicly available Nashville housing dataset obtained from Ka
 
 The SQL Server project includes the following features:
 
-- Cleaned and standardized inconsistent housing records using SQL Server.
-- Parsed and separated text fields using SUBSTRING(), PARSENAME(), and string manipulation functions.
-- Removed duplicate records using Common Table Expressions (CTEs).
-- Standardized missing and inconsistent values using CASE expressions.
-- Produced a clean analytical dataset suitable for visualization and downstream analysis.
-- Designed an interactive Power BI dashboard summarizing housing characteristics and pricing trends.
+- Cleaned and standardized over 56,000 housing records using SQL Server.
+- Transformed raw data into an analysis-ready dataset through parsing, normalization, and feature engineering.
+- Improved data quality by removing duplicate records and standardizing inconsistent values.
+- Applied Common Table Expressions (CTEs), CASE statements, and string manipulation functions to automate data preparation.
+- Developed an interactive Power BI dashboard for exploring pricing trends, property characteristics, and historical market activity.
 
-## Visualization
-To view the Power BI dashboard, you can check out the visualization by downloading the Power BI file from this repository.
+## Dashboard
+The Power BI dashboard summarizes housing characteristics, pricing trends, and historical property activity using interactive visualizations. The PBIX file is included in this repository for download and exploration.
