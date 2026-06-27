@@ -18,7 +18,7 @@ The project uses a publicly available Nashville housing dataset obtained from Ka
 The project includes the following features:
 
 - Cleaned and standardized over 56,000 housing records using SQL Server.
-- Transformed raw data into an analysis-ready dataset through parsing, normalization, and feature engineering.
+- Transformed raw data into an analysis-ready dataset through parsing, standardization, and normalization.
 - Improved data quality by removing duplicate records and standardizing inconsistent values.
 - Applied Common Table Expressions (CTEs), CASE statements, and string manipulation functions for data preparation.
 - Developed an interactive Power BI dashboard for exploring pricing trends, property characteristics, and historical market activity.
