@@ -1,7 +1,7 @@
 # Nashville Housing Analysis using SQL Server
 ![](NashvilleHousingDashboard.png)
 
-This project demonstrates an end-to-end data analytics workflow using SQL Server and Power BI. Beginning with a raw housing dataset containing more than 56,000 records, I cleaned, standardized, and transformed the data using SQL before building an interactive Power BI dashboard to explore housing prices, property characteristics, and historical market trends across Nashville, Tennessee.
+This project demonstrates an end-to-end data analytics workflow using SQL Server and Power BI. Beginning with a raw housing dataset of more than 56,000 records, I cleaned, standardized, and transformed the data using SQL before building an interactive Power BI dashboard to explore housing prices, property characteristics, and historical market trends across Nashville, Tennessee.
 
 The project focuses on practical data preparation techniques that improve data quality and usability for downstream analysis and visualization.
 
