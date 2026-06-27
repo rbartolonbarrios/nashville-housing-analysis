@@ -1,19 +1,24 @@
 # Nashville Housing Analysis using SQL Server
 ![](NashvilleHousingDashboard.png)
 
-This project uses SQL Server to clean housing data from Nashville, Tennessee. The project includes various queries that standardize date formats, make data more usable by separating text using substrings and parsename function, and remove duplicates using CTEs. Additionally, the project uses case statements to replace values to make them more clear.
+This project demonstrates an end-to-end data analytics workflow using SQL Server and Power BI. Beginning with a raw housing dataset containing more than 56,000 records, I cleaned, standardized, and transformed the data using SQL before building an interactive Power BI dashboard to explore housing prices, property characteristics, and historical market trends across Nashville, Tennessee.
+
+The project focuses on practical data preparation techniques that improve data quality and usability for downstream analysis and visualization.
 
 ## Data Source
 
-The data used for this project was obtained from a publicly available dataset on Kaggle. The dataset includes information on various properties and their characteristics, such as location, number of bedrooms and bathrooms, square footage, and sale date. For more information about the orginal dataset, please refer to the Kaggle page where the dataset was obtained [Nashville Housing Data](https://www.kaggle.com/datasets/yohan313/nashville-housing-data)
+The project uses a publicly available Nashville housing dataset obtained from Kaggle. The dataset contains property transaction records including sale price, location, property type, bedrooms, bathrooms, square footage, and sale dates. For more information about the original dataset, please refer to the Kaggle page where the dataset was obtained [Nashville Housing Data](https://www.kaggle.com/datasets/yohan313/nashville-housing-data)
 
 ## Project Features
 
 The SQL Server project includes the following features:
 
-- Queries that standardize date formats, separate text using substrings and parsename function, and remove duplicates using CTEs.
-- Use of case statements to replace values and make them more clear.
-- Creation of a clean and usable dataset that can be used for further analysis and modeling.
+- Cleaned and standardized inconsistent housing records using SQL Server.
+- Parsed and separated text fields using SUBSTRING(), PARSENAME(), and string manipulation functions.
+- Removed duplicate records using Common Table Expressions (CTEs).
+- Standardized missing and inconsistent values using CASE expressions.
+- Produced a clean analytical dataset suitable for visualization and downstream analysis.
+- Designed an interactive Power BI dashboard summarizing housing characteristics and pricing trends.
 
 ## Visualization
 To view the Power BI dashboard, you can check out the visualization by downloading the Power BI file from this repository.
