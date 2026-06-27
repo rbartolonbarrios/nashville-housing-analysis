@@ -15,7 +15,7 @@ The project uses a publicly available Nashville housing dataset obtained from Ka
 
 ## Project Features
 
-The SQL Server project includes the following features:
+The project includes the following features:
 
 - Cleaned and standardized over 56,000 housing records using SQL Server.
 - Transformed raw data into an analysis-ready dataset through parsing, normalization, and feature engineering.
